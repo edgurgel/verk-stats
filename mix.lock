@@ -1,9 +1,13 @@
-%{"confex": {:hex, :confex, "3.2.3", "f3e29188448c790dd75b416daeedddddcce0a9bb657721cd9ed3d857a2de0434", [:mix], [], "hexpm"},
+%{
+  "confex": {:hex, :confex, "3.2.3", "f3e29188448c790dd75b416daeedddddcce0a9bb657721cd9ed3d857a2de0434", [:mix], [], "hexpm"},
   "connection": {:hex, :connection, "1.0.4", "a1cae72211f0eef17705aaededacac3eb30e6625b04a6117c1b2db6ace7d5976", [:mix], [], "hexpm"},
+  "earmark": {:hex, :earmark, "1.2.5", "4d21980d5d2862a2e13ec3c49ad9ad783ffc7ca5769cf6ff891a4553fbaae761", [], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.18.4", "4406b8891cecf1352f49975c6d554e62e4341ceb41b9338949077b0d4a97b949", [], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
   "gen_stage": {:hex, :gen_stage, "0.12.2", "e0e347cbb1ceb5f4e68a526aec4d64b54ad721f0a8b30aa9d28e0ad749419cbb", [:mix], [], "hexpm"},
   "jason": {:hex, :jason, "1.1.0", "9634bca30f2f7468dde3e704d5865319b1eb88e4a8cded5c995baf0aa957524f", [], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
   "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], [], "hexpm"},
   "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], [], "hexpm"},
   "redix": {:hex, :redix, "0.7.1", "25a6c1c0d9b2d12a35aef759f9e49bd9bca00e0cd857ce766412f08fdda72163", [:mix], [{:connection, "~> 1.0", [hex: :connection, repo: "hexpm", optional: false]}], "hexpm"},
   "verk": {:hex, :verk, "1.4.0", "cbc8cacf7fa05f7a08541b9ea5c126e8e009a5e841d912584a51c9224a432028", [:mix], [{:confex, "~> 3.2.0", [hex: :confex, repo: "hexpm", optional: false]}, {:gen_stage, "~> 0.12.1", [hex: :gen_stage, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}, {:poolboy, "~> 1.5.1", [hex: :poolboy, repo: "hexpm", optional: false]}, {:redix, "~> 0.6", [hex: :redix, repo: "hexpm", optional: false]}], "hexpm"},
-  "watcher": {:hex, :watcher, "1.0.0", "0d9a43d0f1f3997b75775fc873dfb29437b8e3c5fb6bdcb8feaa5eedc7ee9cf6", [:mix], []}}
+  "watcher": {:hex, :watcher, "1.0.0", "0d9a43d0f1f3997b75775fc873dfb29437b8e3c5fb6bdcb8feaa5eedc7ee9cf6", [:mix], []},
+}

@@ -20,7 +20,7 @@ defmodule VerkStats.Mixfile do
   end
 
   defp deps() do
-    [{:verk, "~> 1.4"}]
+    [{:verk, "~> 1.4"}, {:earmark, "~> 1.0", only: :dev}, {:ex_doc, "~> 0.18", only: :dev}]
   end
 
   defp package() do
